@@ -1,5 +1,5 @@
 import express from 'express';
-import { prisma } from './utils/prisma.js';
+// import { prisma } from './utils/prisma.js';
 
 const app = express();
 const port = 3000;
