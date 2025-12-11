@@ -1,11 +1,12 @@
 
-
-generator client {
-  provider = "prisma-client"
-  output   = "../src/generated/prisma"
-}
-
 datasource db {
   provider = "mongodb"
   url      = env("DATABASE_URL")
 }
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+    previewFeatures = ["mongodb"]
+}
+
