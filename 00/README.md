@@ -11,7 +11,7 @@ npm init -y
 ## 2. Instalação das Dependências
 Instalamos o Prisma (ferramenta de desenvolvimento) e o Prisma Client (biblioteca de uso).
 ```bash
-npm install prisma@5 @prisma/client@5 --save-dev
+npm install prisma@5 @prisma/client@5 --save-dev dotenv
 ```
 *(Nota: Utilizamos a versão 5 para garantir estabilidade e compatibilidade com a configuração padrão, ignorando alterações da v7).*
 
